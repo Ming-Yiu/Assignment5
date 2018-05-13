@@ -2,7 +2,7 @@
 //Arguments: Text to be synthesizied in string format
 //Returns: Creates a .wav file in the root filesystem.
 //
-//Since synthesising voices is assyncronous, A callback needs to be used like below: 
+//Since synthesising voices is assyncronous, A callback needs to be used like below:
 //  Text2Speech('hello',function(){ *DO SOMETHING WITH THE VOICE FILE*});
 //
 //==============================================================================================================================================================
@@ -17,7 +17,7 @@ var text_to_speech = new TextToSpeechV1 ({
   password: 'GLEZyvT34MEb'
 });
 
-function Text2Speech(Words,callback){
+module.exports = function Text2Speech(Words,callback){
     var params = {
     text: Words,
     voice: 'en-GB_KateVoice',
