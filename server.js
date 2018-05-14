@@ -2,10 +2,14 @@ var faceDetection = require("./FaceDetection.js");
 var textToSpeech = require("./TexttoSpeech.js");
 var fs = require("fs");
 var SocketIOFile = require('socket.io-file');
-var app = require("express")(); //initialise express app
+var siofu = require("socketio-file-upload");
+var app = require("express")().use(siofu.router); //initialise express app
 var server = require('http').Server(app); //create server
 var io = require("socket.io")(server); //create socket
 var formidable = require("formidable");
+var path = require("path");
+
+
 //initalise server to listen on port 3000
 server.listen(3000, function(){
   console.log("Server listening on port 3000");
@@ -31,6 +35,16 @@ app.post('/fileupload', function(req, res){
       res.send("File upload complete");
       faceDetection(newPath, function(data){
         console.log(data);
+        if (data.NumFaces>0)
+        {
+          //combine text
+          var words = "The image has " + data.NumFaces + " faces. ";
+          for (var i = 1; i <= data.NumFaces; i++)
+          {
+            words = words + "Face number " + i + " is a " + data.Gender[i-1] + " and the average age is " + data.AverageAge[i-1] + ". ";
+          }
+          console.log(words);
+        }
       })
     })
   })
@@ -40,10 +54,11 @@ app.post('/fileupload', function(req, res){
 io.on('connection', function(socket){
   console.log("Client " + socket.id + " has connected");
   /*var uploader = new SocketIOFile(socket, {
-    uploadDir: './files',
+    uploadDir: __dirname + '/files',
     transmissionDelay: 0,
     overwrite: true
   });
+  console.log(uploader);
   uploader.on('start', (fileInfo) => {
     console.log("Client started uploading file");
     console.log(fileInfo);
@@ -61,4 +76,17 @@ io.on('connection', function(socket){
     console.log("Error in upload");
     console.log(err);
   })*/
+  /*var uploader = new siofu();
+  uploader.dir = path.join(__dirname, '/files');
+  console.log(uploader);
+  uploader.listen(socket);
+  uploader.on('start', function(event){
+    console.log(event);
+  });
+  uploader.on('error', function(err){
+    console.log(err);
+  })*/
+  socket.on("upload", function(file){
+    console.log(file);
+  })
 });
