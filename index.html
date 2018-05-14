@@ -3,12 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Iteration 1</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="socket.io-file-client.js"></script>
+    <script src="app.js"></script>
+    <script>
+      var socket = io.connect('http://localhost:3000'); //connect to server socket
+      /*var uploader = new SocketIOFileUpload(socket);
+      var form = document.getElementById('form');
+
+      uploader.on('start', function(fileInfo) {
+          document.getElementById("uploadProgress").innerHTML = 'Start uploading';
+      });
+      uploader.on('stream', function(fileInfo) {
+          document.getElementById("uploadProgress").innerHTML = 'Streaming... sent ' + fileInfo.sent + ' bytes.';
+      });
+      uploader.on('complete', function(fileInfo) {
+          document.getElementById("uploadProgress").innerHTML = 'Upload Complete';
+      });
+      uploader.on('error', function(err) {
+          document.getElementById("uploadProgress").innerHTML = 'Error!';
+      });
+      form.onsubmit = function(ev) {
+          ev.preventDefault();
+
+          var fileEl = document.getElementById('file');
+          var uploadIds = uploader.upload(fileEl);
+      };*/
+    </script>
   </head>
   <body>
-      <p>Upload an image</p>
-      <form name="uploadImage">
-        <input type="file" name="img">
-          <input type="submit">
-      </form>
+      <p>Upload an image</p><br>
+      <form id="form">
+        <input type="file" id="file" />
+        <input type="submit" value="Upload" />
+    </form>
+      <br>
+      <p id="uploadProgress"></p>
   </body>
 </html>
