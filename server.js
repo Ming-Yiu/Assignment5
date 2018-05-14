@@ -18,26 +18,28 @@ app.get('/', function(req, res){
 });
 
 //Upload file
-/*app.post('/fileupload', function(req, res){
+app.post('/fileupload', function(req, res){
   console.log("Uploading file");
   var form = new formidable.IncomingForm();
   form.parse(req, function(err, fields, files){
-    console.log(files.img.path);
-    var oldPath = files.img.path;
-    var newPath = __dirname + '/files/' + files.img.name;
+    console.log(files.filetoupload.path);
+    var oldPath = files.filetoupload.path;
+    var newPath = __dirname + '/files/' + files.filetoupload.name;
     fs.rename(oldPath, newPath, function(err){
       if (err) throw err;
       console.log("Upload complete");
-
       res.send("File upload complete");
+      faceDetection(newPath, function(data){
+        console.log(data);
+      })
     })
   })
-})*/
+})
 
 //listen for connection
 io.on('connection', function(socket){
   console.log("Client " + socket.id + " has connected");
-  var uploader = new SocketIOFile(socket, {
+  /*var uploader = new SocketIOFile(socket, {
     uploadDir: './files',
     transmissionDelay: 0,
     overwrite: true
@@ -58,5 +60,5 @@ io.on('connection', function(socket){
   uploader.on('error', (err) => {
     console.log("Error in upload");
     console.log(err);
-  })
+  })*/
 });

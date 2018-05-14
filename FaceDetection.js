@@ -17,7 +17,7 @@ var visualRecognition = new VisualRecognitionV3({
   api_key: '7e34ea43e8c105224a15dd62281bc1fde0c9d6b2'
 });
 
-module.exports = function ProcessImage(file,callback){
+module.exports = function (file,callback){
     var images_file = fs.createReadStream(file)
 
     var params = {
@@ -38,4 +38,4 @@ module.exports = function ProcessImage(file,callback){
         }
         callback({AverageAge:FaceAges,Gender:FaceGender,NumFaces:Data.length});
     });
-}
+};

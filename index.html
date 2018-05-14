@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <title>Iteration 1</title>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="socket.io-file-client.js"></script>
-    <script src="app.js"></script>
     <script>
       var socket = io.connect('http://localhost:3000'); //connect to server socket
       /*var uploader = new SocketIOFileUpload(socket);
@@ -33,10 +31,10 @@
   </head>
   <body>
       <p>Upload an image</p><br>
-      <form id="form">
-        <input type="file" id="file" />
+      <form id="form" method="post" action="fileupload" enctype="multipart/form-data">
+        <input type="file" name="filetoupload" />
         <input type="submit" value="Upload" />
-    </form>
+      </form>
       <br>
       <p id="uploadProgress"></p>
   </body>
