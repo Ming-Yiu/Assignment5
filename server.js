@@ -28,10 +28,60 @@ app.post('/fileupload', function(req, res){
     fs.rename(oldPath, newPath, function(err){
       if (err) throw err;
       console.log("Upload complete");
-      res.send("File upload complete");
+      
       faceDetection(newPath, function(data){
         console.log(data);
+        if(data.NumFaces>1)
+        {
+          var word="The number of people in this image is ";
+          word+=data.NumFaces;
+          word+=". The gender of the people are "
+          for (i=0;i<data.NumFaces;i++)
+          {
+            word+=data.Gender[i];
+            if(i<data.NumFaces-2)
+            {
+              word+=', ';
+            }
+            if (i==data.NumFaces-2)
+            {
+              word+=' and ';
+            }
+            
+          }
+          word+=". The average age for each face is "
+          for (i=0;i<data.NumFaces;i++)
+          {
+            word+=data.AverageAge[i];
+            if(i<data.NumFaces-2)
+            {
+              word+=', ';
+            }
+            if (i==data.NumFaces-2)
+            {
+              word+=' and ';
+            }
+            
+          }
+          word+=".";
+        }
+        else{
+          var word="The number of people in this image is 1. The gender of the person is ";
+          word+=data.Gender[0];
+          word+=". The average age of the face is ";
+          word+=data.AverageAge[0];
+          word+=".";
+        }
+        console.log(word);
+        textToSpeech(word,function(data){
       })
+      
+      /*var music = __dirname + "/TextToSpeechOutput.mp3";
+      console.log(music)
+      var onclick="var audio = new Audio(" + music + ");audio.play();"
+      res.send('File upload complete<br><audio id="file"><source src="'+music+'"></audio><button onclick="document.getElementById("file").play()">play</button>');
+      */ //doesnt work yet
+      })  
     })
   })
 })
