@@ -17,7 +17,7 @@ var text_to_speech = new TextToSpeechV1 ({
   password: 'GLEZyvT34MEb'
 });
 
-module.exports = function Text2Speech(Words,callback){
+module.exports = function (Words,callback){
     var params = {
     text: Words,
     voice: 'en-GB_KateVoice',

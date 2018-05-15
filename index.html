@@ -6,88 +6,110 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="/siofu/client.js"></script>
     <!--<script src="/siofc/socket.io-file-client.js"></script>-->
-    <script>
-      var socket = io.connect('http://localhost:3000'); //connect to server socket
-      //var uploader = new SocketIOFileUpload(socket);
-      //console.log(uploader);
-      //var uploader = new SocketIOFileUpload(socket);
-      /*var form = document.getElementById('form');
-
-      uploader.on('start', function(fileInfo) {
-          document.getElementById("uploadProgress").innerHTML = 'Start uploading';
-      });
-      uploader.on('stream', function(fileInfo) {
-          document.getElementById("uploadProgress").innerHTML = 'Streaming... sent ' + fileInfo.sent + ' bytes.';
-      });
-      uploader.on('complete', function(fileInfo) {
-          document.getElementById("uploadProgress").innerHTML = 'Upload Complete';
-      });
-      uploader.on('error', function(err) {
-          document.getElementById("uploadProgress").innerHTML = 'Error!';
-      });
-      form.onsubmit = function(ev) {
-          ev.preventDefault();
-
-          var fileEl = document.getElementById('filetoupload');
-          var uploadIds = uploader.upload(fileEl);
-      };*/
-      //console.log(document.getElementById("siofu_input"));
-      //uploader.listenOnSubmit(document.getElementById("my_button"), document.getElementById("siofu_input"));
-      //uploader.listenOnInput(document.getElementById("siofu_input"));
-      /*uploader.addEventListener("start", function(event){
-        console.log(event);
-      });*/
-      /*document.addEventListener("DOMContentLoaded", function(){
-
-        // Initialize instances:
-        var socket = io.connect('http://localhost:3000'); //connect to server socket
-        var siofu = new SocketIOFileUpload(socket);
-
-        // Configure the three ways that SocketIOFileUpload can read files:
-        document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
-        siofu.listenOnInput(document.getElementById("upload_input"));
-        siofu.listenOnDrop(document.getElementById("file_drop"));
-
-        // Do something on upload progress:
-        siofu.addEventListener("progress", function(event){
-            var percent = event.bytesLoaded / event.file.size * 100;
-            console.log("File is", percent.toFixed(2), "percent loaded");
-        });
-
-        // Do something when a file is uploaded:
-        siofu.addEventListener("complete", function(event){
-            console.log(event.success);
-            console.log(event.file);
-        });
-
-      }, false);*/
-      var submit = document.getElementById("button");
-      var file = document.getElementById("filetoupload");
-      var form = document.getElementById("form");
-
-      form.addEventListener("submit", function(){
-        console.log(file);
-      })
-
-      /*submit.addEventListener("onClick", function(){
-        socket.emit('upload', file);
-      });*/
-    </script>
   </head>
   <body>
       <p>Upload an image</p><br>
-      <form id="form" method="post" action="/fileupload" enctype="multipart/form-data">
+      <!--<form id="form" method="post" action="/fileupload" enctype="multipart/form-data">
         <input type="file" name="filetoupload" />
         <input type="submit" value="Upload" />
-      </form>
-      <!--<label>Upload File: <input type="file" id="siofu_input" /></label>
+      </form>-->
+      <label>Upload File: <input type="file" id="siofu_input" /></label>
       <button id="my_button">Upload File</button>
       <br>
-      <p id="uploadProgress"></p>-->
+      <p id="uploadProgress"></p>
+      <p id="listen"></p>
       <!--<p><button id="upload_btn">Prompt for File</button></p>
       <p><label>Choose File: <input type="file" id="upload_input"/></label></p>
       <div id="file_drop" dropzone="copy" title="drop files for upload">Drop File</div>-->
       <!--<input type="file" id="fileUpload"/>
       <button type="button" id="button" value="Submit"/>-->
+      <script>
+        var socket = io.connect('http://localhost:3000'); //connect to server socket
+        var progress = document.getElementById("uploadProgress");
+        var listen = document.getElementById("listen");
+        //var uploader = new SocketIOFileUpload(socket);
+        //console.log(uploader);
+        //var uploader = new SocketIOFileUpload(socket);
+        /*var form = document.getElementById('form');
+
+        uploader.on('start', function(fileInfo) {
+            document.getElementById("uploadProgress").innerHTML = 'Start uploading';
+        });
+        uploader.on('stream', function(fileInfo) {
+            document.getElementById("uploadProgress").innerHTML = 'Streaming... sent ' + fileInfo.sent + ' bytes.';
+        });
+        uploader.on('complete', function(fileInfo) {
+            document.getElementById("uploadProgress").innerHTML = 'Upload Complete';
+        });
+        uploader.on('error', function(err) {
+            document.getElementById("uploadProgress").innerHTML = 'Error!';
+        });
+        form.onsubmit = function(ev) {
+            ev.preventDefault();
+
+            var fileEl = document.getElementById('filetoupload');
+            var uploadIds = uploader.upload(fileEl);
+        };*/
+        //console.log(document.getElementById("siofu_input"));
+        //uploader.listenOnSubmit(document.getElementById("my_button"), document.getElementById("siofu_input"));
+        //uploader.listenOnInput(document.getElementById("siofu_input"));
+        /*uploader.addEventListener("start", function(event){
+          console.log(event);
+        });*/
+        //document.addEventListener("DOMContentLoaded", function(){
+
+          // Initialize instances:
+          /*var socket = io.connect('http://localhost:3000'); //connect to server socket
+          var siofu = new SocketIOFileUpload(socket);
+
+          // Configure the three ways that SocketIOFileUpload can read files:
+          document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
+          siofu.listenOnInput(document.getElementById("upload_input"));
+          siofu.listenOnDrop(document.getElementById("file_drop"));
+
+          // Do something on upload progress:
+          siofu.addEventListener("progress", function(event){
+              var percent = event.bytesLoaded / event.file.size * 100;
+              console.log("File is", percent.toFixed(2), "percent loaded");
+          });
+
+          // Do something when a file is uploaded:
+          siofu.addEventListener("complete", function(event){
+              console.log(event.success);
+              console.log(event.file);
+          });
+
+        }, false);*/
+        /*var submit = document.getElementById("button");
+        var file = document.getElementById("filetoupload");
+        var form = document.getElementById("form");
+
+        form.addEventListener("submit", function(){
+          console.log(file);
+        })*/
+
+        /*submit.addEventListener("onClick", function(){
+          socket.emit('upload', file);
+        });*/
+        var uploader = new SocketIOFileUpload(socket);
+        uploader.listenOnSubmit(document.getElementById("my_button"), document.getElementById("siofu_input"));
+
+        uploader.addEventListener("start", function(event){
+          console.log(event);
+        })
+
+        uploader.addEventListener("progress", function(event){
+            var percent = event.bytesLoaded / event.file.size * 100;
+            progress.innerHTML = "File is " + percent.toFixed(2) + " percent loaded";
+        });
+
+        uploader.addEventListener("complete", function(event){
+          progress.innerHTML = "File successfully uploaded";
+        });
+
+        socket.on("Finish processing", function(){
+          listen.innerHTML=  "<button id='listen_btn'>Listen</button>";
+        })
+      </script>
   </body>
 </html>
