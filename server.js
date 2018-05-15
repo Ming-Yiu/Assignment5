@@ -1,4 +1,8 @@
-
+//==============================================================================================================================================================
+//Nodejs Server code
+//Usage: Run by calling 'node server.js' in console
+//Prerequisites: Need to be connected to the internet. Need to have correct modules installed (under require below). Need to have correct admin privlidges and firewall access.
+//==============================================================================================================================================================
 //Dependencies
 var faceDetection = require("./FaceDetection.js");
 var textToSpeech = require("./TexttoSpeech.js");
@@ -86,7 +90,7 @@ io.listen(server).on('connection', function(socket){
             logger.debug('Image Processed: \n' + data);
             var words = "";
             if (data.NumFaces>0){
-                words = "The image has " + data.NumFaces + " faces. "; //combine text
+                words = "The image has " + data.NumFaces + " faces. "; //combine text to get one long sentence
                 for (var i = 1; i <= data.NumFaces; i++){
                     words = words + "Face number " + i + " is a " + data.Gender[i-1] + " and the average age is " + data.AverageAge[i-1] + ". ";
                 }
@@ -102,7 +106,7 @@ io.listen(server).on('connection', function(socket){
                 logger.info('Finished audio synthesis');
                 //Using https://github.com/zoutepopcorn/audio_socket/tree/master example
                 var myStream = ss.createStream();
-                fs.createReadStream('./TextToSpeechOutput.wav').pipe(myStream);
+                fs.createReadStream('./TextToSpeechOutput.wav').pipe(myStream); //Stream .wav file
                 socket.emit("Finish processing");
                 ss(socket).emit('audiostream',myStream);
                 logger.info('Streaming audio');
