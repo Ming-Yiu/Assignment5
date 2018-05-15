@@ -3,8 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Confirmation</title>
+    <script src="/socket.io/socket.io.js"></script>
   </head>
   <body>
-      Upload successful
+      <p>Upload successful</p>
+      <br>
+      <button type="button" id="button">Listen to results</button>
+
+      <script>
+        var socket = io.connect('http://localhost:3000');
+        var listen = document.getElementById("button");
+
+        listen.addEventListener("click", function(){
+          console.log("button clicked");
+          socket.emit('play');
+        });
+      </script>
   </body>
 </html>
