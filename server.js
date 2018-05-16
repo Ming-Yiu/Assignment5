@@ -10,6 +10,7 @@ var formidable = require("formidable");
 var path = require("path");
 var play = require("play");
 var player = require("play-sound")(opts = {});
+var ss = require('socket.io-stream');
 
 //initalise server to listen on port 3000
 server.listen(3000, function(){
@@ -122,7 +123,6 @@ io.on('connection', function(socket){
   })
   socket.on("play", function(){
     console.log("listen");
-    console.log(player);
-    player.play("./TextToSpeechOutput.wav");
+    
   })
 });

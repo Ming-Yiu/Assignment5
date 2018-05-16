@@ -5,6 +5,7 @@
     <title>Iteration 1</title>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/siofu/client.js"></script>
+    <script src="/js/socket.io-stream.js"></script>
     <!--<script src="/siofc/socket.io-file-client.js"></script>-->
   </head>
   <body>
@@ -27,6 +28,7 @@
         var socket = io.connect('http://localhost:3000'); //connect to server socket
         var progress = document.getElementById("uploadProgress");
         var listen = document.getElementById("listen");
+        var listenbtn = "";
         //var uploader = new SocketIOFileUpload(socket);
         //console.log(uploader);
         //var uploader = new SocketIOFileUpload(socket);
@@ -109,6 +111,12 @@
 
         socket.on("Finish processing", function(){
           listen.innerHTML=  "<button id='listen_btn'>Listen</button>";
+          listenbtn = document.getElementById("listen_btn");
+        })
+
+        listenbtn.addEventListener("click", function(){
+          ss(socket).emit('play', stream);
+          console.log(stream);
         })
       </script>
   </body>
