@@ -1,0 +1,64 @@
+{"level":"info","message":"Entered Text2Speech with string: Hello this is me","timestamp":"12:43:48"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"12:43:50"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"03:20:26"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:20:29"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"03:52:15"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:52:17"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"03:52:52"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:52:56"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"03:53:29"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:53:31"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"03:54:37"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:54:40"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"03:56:04"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:56:06"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"03:57:11"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:57:13"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 5 faces. Face number 1 is a FEMALE and the average age is 28. Face number 2 is a FEMALE and the average age is 39. Face number 3 is a FEMALE and the average age is 39.5. Face number 4 is a FEMALE and the average age is 29.5. Face number 5 is a FEMALE and the average age is 31. ","timestamp":"03:57:55"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"03:57:59"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 5 faces. Face number 1 is a FEMALE and the average age is 28. Face number 2 is a FEMALE and the average age is 39. Face number 3 is a FEMALE and the average age is 39.5. Face number 4 is a FEMALE and the average age is 29.5. Face number 5 is a FEMALE and the average age is 31. ","timestamp":"04:00:09"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:00:14"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image","timestamp":"04:02:05"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:02:07"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"04:10:03"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:10:05"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"04:10:48"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:10:50"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 32.5. ","timestamp":"04:12:46"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:12:48"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 5 faces. Face number 1 is a FEMALE and the average age is 28. Face number 2 is a FEMALE and the average age is 39. Face number 3 is a FEMALE and the average age is 39.5. Face number 4 is a FEMALE and the average age is 29.5. Face number 5 is a FEMALE and the average age is 31. ","timestamp":"04:16:39"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:16:44"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 32.5. ","timestamp":"04:25:13"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:25:15"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"04:27:04"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:27:06"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"04:31:35"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:31:37"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 5 faces. Face number 1 is a FEMALE and the average age is 28. Face number 2 is a FEMALE and the average age is 39. Face number 3 is a FEMALE and the average age is 39.5. Face number 4 is a FEMALE and the average age is 29.5. Face number 5 is a FEMALE and the average age is 31. ","timestamp":"04:32:20"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:32:27"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"04:43:46"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:43:47"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"04:44:14"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"04:44:17"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"05:08:06"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:08:08"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:13:24"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:13:27"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:14:13"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:14:17"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:15:39"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:15:41"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:18:07"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:18:09"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:32:31"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:32:36"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"05:35:59"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:36:02"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 2 faces. Face number 1 is a MALE and the average age is 34.5. Face number 2 is a FEMALE and the average age is 31. ","timestamp":"05:41:31"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:41:35"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"05:41:56"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:41:59"}
+{"level":"info","message":"Entered Text2Speech with string: There are no faces in this image.","timestamp":"05:45:08"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:45:10"}
+{"level":"info","message":"Entered Text2Speech with string: The image has 1 faces. Face number 1 is a MALE and the average age is 53. ","timestamp":"05:45:18"}
+{"level":"debug","message":"Successfully created .wav file","timestamp":"05:45:21"}

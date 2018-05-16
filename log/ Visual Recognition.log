@@ -1,0 +1,952 @@
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2","timestamp":"12:28:29"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2.jpg","timestamp":"12:29:05"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2.jpg","timestamp":"12:29:30"}
+{"level":"debug","message":"Average Age of face0 = 34.5","timestamp":"12:29:33"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2.jpg","timestamp":"12:31:35"}
+{"level":"debug","message":"Average Age of face 0 = 34.5 Gender of face = MALE","timestamp":"12:31:38"}
+{"level":"debug","message":"Average Age of face 1 = 31 Gender of face = FEMALE","timestamp":"12:31:38"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"12:31:38"}
+{"level":"debug","message":"Average Face Final: 34.5,31","timestamp":"12:31:38"}
+{"level":"debug","message":"Gender Final: MALE,FEMALE","timestamp":"12:31:38"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2.jpg","timestamp":"12:34:26"}
+{"level":"debug","message":"Average Age of face 0 = 34.5 .Gender of face = MALE","timestamp":"12:34:29"}
+{"level":"debug","message":"Average Age of face 1 = 31 .Gender of face = FEMALE","timestamp":"12:34:29"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"12:34:29"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"12:34:29"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE","timestamp":"12:34:29"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage2.jpg","timestamp":"12:34:58"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"12:35:01"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"12:35:01"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"12:35:01"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"12:35:01"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"12:35:01"}
+{"level":"info","message":"Entered Image Recognition function with file: TestImage.jpeg","timestamp":"12:35:29"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"12:35:31"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"12:35:31"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"12:35:31"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"12:35:31"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage.jpeg","timestamp":"15:47:18"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage2.jpg","timestamp":"15:47:18"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"15:47:20"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"15:47:20"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"15:47:20"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"15:47:20"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"15:47:23"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"15:47:23"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"15:47:23"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"15:47:23"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"15:47:23"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage.jpeg","timestamp":"15:47:57"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage2.jpg","timestamp":"15:47:57"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"15:47:59"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"15:47:59"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"15:47:59"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"15:47:59"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"15:48:00"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage.jpeg","timestamp":"15:48:11"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage2.jpg","timestamp":"15:48:11"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"15:48:14"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"15:48:14"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"15:48:14"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"15:48:14"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"15:48:15"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage.jpeg","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage2.jpg","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImage5.jpg","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImageDog.jpg","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImagePNG.png","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/TestImageGIF.gif","timestamp":"16:10:38"}
+{"level":"info","message":"Entered Image Recognition function with file: ./TestImages/Testfile.js","timestamp":"16:10:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:17:39"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:17:39"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:17:41"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:18:04"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:18:04"}
+{"message":"No images were specified.","stack":"Error: No images were specified.\n    at Request._callback (/home/eric/assignment5/node_modules/watson-developer-cloud/lib/requestwrapper.js:102:21)\n    at Request.self.callback (/home/eric/assignment5/node_modules/request/request.js:186:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1163:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1085:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1106:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)","code":400,"error":"No images were specified.","images_processed":0,"description":"No images were specified.","error_id":"input_error","x-global-transaction-id":"c0b54f935afa192e118e9814","level":"error","timestamp":"16:18:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:20:18"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:20:18"}
+{"message":"No images were specified.","stack":"Error: No images were specified.\n    at Request._callback (/home/eric/assignment5/node_modules/watson-developer-cloud/lib/requestwrapper.js:102:21)\n    at Request.self.callback (/home/eric/assignment5/node_modules/request/request.js:186:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1163:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1085:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1106:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)","code":400,"error":"No images were specified.","images_processed":0,"description":"No images were specified.","error_id":"input_error","x-global-transaction-id":"c0b54f935afa19b30daa07b0","level":"error","timestamp":"16:20:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:21:08"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:21:08"}
+{"message":"No images were specified.","stack":"Error: No images were specified.\n    at Request._callback (/home/eric/assignment5/node_modules/watson-developer-cloud/lib/requestwrapper.js:102:21)\n    at Request.self.callback (/home/eric/assignment5/node_modules/request/request.js:186:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1163:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1085:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1106:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)","code":400,"error":"No images were specified.","images_processed":0,"description":"No images were specified.","error_id":"input_error","x-global-transaction-id":"c0b54f935afa19e5022a51ee","level":"error","timestamp":"16:21:09"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:21:55"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:21:55"}
+{"message":"No images were specified.","stack":"Error: No images were specified.\n    at Request._callback (/home/eric/assignment5/node_modules/watson-developer-cloud/lib/requestwrapper.js:102:21)\n    at Request.self.callback (/home/eric/assignment5/node_modules/request/request.js:186:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1163:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1085:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1106:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)","code":400,"error":"No images were specified.","images_processed":0,"description":"No images were specified.","error_id":"input_error","x-global-transaction-id":"c0b54f935afa1a140be80ffc","level":"error","timestamp":"16:21:56"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:22:34"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:22:34"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:22:34"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:22:34"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:22:34"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:22:34"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:22:36"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:22:36"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:22:36"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:22:36"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:22:36"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:22:36"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:22:36"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:22:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:22:58"}
+{"level":"info","message":"Face Detection: ./TestImages/Testfile.js","timestamp":"16:22:58"}
+{"message":"No images were specified.","stack":"Error: No images were specified.\n    at Request._callback (/home/eric/assignment5/node_modules/watson-developer-cloud/lib/requestwrapper.js:102:21)\n    at Request.self.callback (/home/eric/assignment5/node_modules/request/request.js:186:22)\n    at Request.emit (events.js:180:13)\n    at Request.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1163:10)\n    at Request.emit (events.js:180:13)\n    at IncomingMessage.<anonymous> (/home/eric/assignment5/node_modules/request/request.js:1085:12)\n    at Object.onceWrapper (events.js:272:13)\n    at IncomingMessage.emit (events.js:185:15)\n    at endReadableNT (_stream_readable.js:1106:12)\n    at process._tickCallback (internal/process/next_tick.js:114:19)","code":400,"error":"No images were specified.","images_processed":0,"description":"No images were specified.","error_id":"input_error","x-global-transaction-id":"c0b54f935afa1a530daa3000","level":"error","timestamp":"16:22:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:25:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:25:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:25:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:25:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:25:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:25:13"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:25:16"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:25:16"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:25:16"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:25:16"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:25:16"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:25:16"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:25:16"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:25:17"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:25:17"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:25:17"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:25:17"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:25:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:25:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:25:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:25:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:25:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:25:33"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:25:35"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:25:35"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:25:35"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:25:35"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:25:35"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:25:35"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:25:35"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:25:36"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:26:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:26:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:26:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:26:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:26:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:26:10"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:26:12"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:26:12"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:26:12"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:26:12"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:12"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:12"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:12"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:26:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:26:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:26:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:26:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:26:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:26:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:26:28"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:26:30"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:26:30"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:26:30"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:26:30"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:30"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:30"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:30"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:31"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:31"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:31"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:26:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:26:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:26:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:26:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:26:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:26:39"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:41"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:41"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:41"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:42"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:42"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:42"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:26:43"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:26:43"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:26:43"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:26:43"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:26:43"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:26:43"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:26:43"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:26:43"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:26:44"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:26:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:26:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:26:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:26:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:26:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:26:53"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:26:55"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:26:55"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:26:55"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:26:55"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:26:55"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:26:55"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:26:55"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:26:56"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:28:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:28:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:28:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:28:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:28:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:28:16"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:28:18"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:28:18"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:28:18"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:28:18"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:28:18"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:28:18"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:28:18"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:28:19"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:28:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:28:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:28:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:28:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:28:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:28:43"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:28:45"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:28:45"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:28:45"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:28:45"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:28:45"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:28:45"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:28:45"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:28:46"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:28:46"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:28:46"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:28:46"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:28:46"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:28:47"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:29:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:29:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:29:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:29:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:29:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:29:21"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:29:23"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:29:23"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:29:23"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:29:23"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:29:23"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:29:23"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:29:23"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:29:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:29:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:29:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:29:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:29:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:29:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:29:42"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:29:44"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:29:44"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:29:44"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:29:45"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:29:45"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:29:45"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:29:46"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:30:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:30:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:30:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:30:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:30:21"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:30:21"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:30:23"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:30:23"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:30:23"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:30:23"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:30:23"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:30:23"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:30:23"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:30:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:30:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:30:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:30:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:30:58"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:30:58"}
+{"level":"info","message":"Face Detection: ./TestImasges/TestImageGIF.gif","timestamp":"16:30:58"}
+{"message":"form-data: ENOENT: no such file or directory, open './TestImasges/TestImageGIF.gif'","stack":"Error: form-data: ENOENT: no such file or directory, open './TestImasges/TestImageGIF.gif'","errno":-2,"code":"ENOENT","syscall":"open","path":"./TestImasges/TestImageGIF.gif","level":"error","timestamp":"16:30:58"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:30:59"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:30:59"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:30:59"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:30:59"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:31:00"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:31:00"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:31:00"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:31:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:31:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:31:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:31:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:31:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:31:39"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:31:39"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:31:41"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:31:41"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:31:41"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:31:41"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:31:41"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:31:41"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:31:41"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:31:42"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:32:23"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:32:23"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:32:23"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:32:23"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:32:23"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:32:23"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:32:25"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:32:25"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:32:25"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:32:25"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:32:26"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:32:26"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:32:26"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:32:26"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:33:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:33:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:33:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:33:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:33:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:33:00"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:33:01"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:33:01"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:33:01"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:33:01"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:33:02"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:33:02"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:33:02"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:33:02"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:34:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:34:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:34:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:34:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:34:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:34:08"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:34:08"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:34:08"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:34:08"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:34:08"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:34:08"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:34:08"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:34:08"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:34:09"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:34:09"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:34:09"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:34:09"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:34:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:34:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:34:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:34:24"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:34:26"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:34:26"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:34:26"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:34:26"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:34:26"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:34:26"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:34:26"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:34:26"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:34:26"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:34:27"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:36:22"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:36:22"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:36:22"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:36:22"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:36:24"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:36:24"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:36:25"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:36:25"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:36:25"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:36:25"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:36:25"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:36:25"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:36:25"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:36:26"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:36:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:36:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:36:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:36:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:36:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:36:57"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:36:59"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:36:59"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:36:59"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:36:59"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:36:59"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:36:59"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:36:59"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:37:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:37:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:37:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:37:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:37:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:37:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:37:07"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:37:08"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:37:08"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:37:08"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:37:08"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:37:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:37:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:37:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:37:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:37:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:37:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:37:33"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:37:35"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:39:29"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:39:29"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:39:29"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:39:29"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:39:29"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:39:29"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:39:31"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:39:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:39:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:39:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:39:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:39:37"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:39:37"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:39:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:42:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:42:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:42:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:42:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:42:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:42:33"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:42:35"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:42:55"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:42:57"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:42:57"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:42:57"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:42:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:42:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:42:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:42:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:42:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:42:57"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:42:59"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:42:59"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:42:59"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:43:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:43:06"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:43:08"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:43:08"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:43:08"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:43:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:43:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:43:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:43:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:43:08"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:43:08"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:43:09"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:43:09"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:43:09"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:43:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:43:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:43:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:43:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:43:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:43:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:43:20"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:43:55"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:43:57"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:43:57"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:43:57"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:43:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:43:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:43:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:43:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:43:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:43:59"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:44:00"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"16:44:00"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"16:44:00"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"16:44:00"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"16:44:00"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:44:01"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:44:01"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:44:01"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:44:02"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:44:02"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:44:02"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:44:02"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:44:02"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:44:02"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:44:02"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:44:33"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:44:35"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:44:35"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:44:35"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:44:35"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:44:35"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:44:38"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"16:44:38"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"16:44:38"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"16:44:38"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"16:44:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:44:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:44:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:44:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:44:38"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:44:41"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:44:41"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:44:41"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:44:41"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:44:41"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:44:41"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:44:41"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:44:41"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:44:43"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:44:43"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:44:43"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:44:44"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:44:44"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:44:44"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:44:56"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:44:56"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:44:56"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:44:56"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:45:30"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:45:32"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:45:32"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:45:32"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:45:32"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:45:32"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:45:35"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"16:45:35"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"16:45:35"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"16:45:35"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"16:45:35"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:45:35"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:45:38"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:45:38"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:45:38"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:45:38"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:45:38"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:45:38"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:45:38"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:45:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:45:38"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:45:40"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:45:40"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:45:40"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:45:40"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:45:43"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:45:43"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:45:43"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:45:43"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:45:43"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:45:49"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:45:49"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:45:49"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:46:26"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:46:28"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:46:28"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:46:28"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:46:28"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:46:28"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:46:30"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"16:46:30"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"16:46:30"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"16:46:30"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"16:46:30"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:46:30"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:46:33"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:46:33"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:46:33"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:46:33"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:46:33"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:46:33"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:46:33"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:46:33"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:46:33"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:46:35"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:46:35"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:46:35"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:46:35"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:46:38"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:46:38"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:46:38"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:46:38"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:46:38"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:46:41"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:46:41"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:46:41"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"16:46:52"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"16:46:53"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:46:53"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"16:46:53"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:46:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"16:46:53"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"16:46:56"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"16:46:56"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"16:46:56"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"16:46:56"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"16:46:56"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"16:46:56"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"16:46:59"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"16:46:59"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"16:46:59"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"16:46:59"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"16:46:59"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"16:46:59"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"16:46:59"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"16:46:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"16:46:59"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:47:01"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:47:01"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:47:01"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"16:47:01"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"16:47:04"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"16:47:04"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"16:47:04"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"16:47:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"16:47:04"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"16:47:07"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"16:47:07"}
+{"level":"debug","message":"Gender Final: []","timestamp":"16:47:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"17:01:51"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"17:01:53"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:01:53"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"17:01:53"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:01:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"17:01:53"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"17:01:55"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"17:01:55"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"17:01:55"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"17:01:55"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"17:01:55"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"17:01:55"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"17:01:59"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"17:01:59"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"17:01:59"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"17:01:59"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"17:01:59"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"17:01:59"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"17:01:59"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"17:01:59"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"17:01:59"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:02:02"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:02:02"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:02:02"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"17:02:02"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"17:02:06"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:02:06"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"17:02:06"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:02:06"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"17:02:06"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:02:09"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:02:09"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:02:09"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"17:02:09"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"17:02:10"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:02:10"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"17:02:10"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:02:10"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"17:02:10"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"17:02:13"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"17:02:13"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"17:02:13"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"17:02:13"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"17:02:13"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"17:02:13"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"17:02:16"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"17:02:16"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"17:02:16"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"17:02:16"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"17:02:16"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"17:02:16"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"17:02:16"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"17:02:16"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"17:02:16"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:02:18"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:02:18"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:02:18"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"17:02:18"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"17:02:22"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:02:22"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"17:02:22"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:02:22"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"17:02:39"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"17:02:41"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:02:41"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"17:02:41"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:02:41"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"17:02:41"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"17:02:45"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"17:02:45"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"17:02:45"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"17:02:45"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"17:02:45"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"17:02:45"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"17:02:51"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"17:02:51"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"17:02:51"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"17:02:51"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"17:02:51"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"17:02:51"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"17:02:51"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"17:02:51"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"17:02:51"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:02:53"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:02:53"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:02:53"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"17:02:53"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"17:02:57"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:02:57"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"17:02:57"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:02:57"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageGIF.gif","timestamp":"17:02:57"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:03:00"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:03:00"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:03:00"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage.jpeg","timestamp":"17:03:00"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"17:03:02"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:03:02"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"17:03:02"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:03:02"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage2.jpg","timestamp":"17:03:02"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"17:03:04"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"17:03:04"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"17:03:04"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"17:03:04"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"17:03:04"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImage5.jpg","timestamp":"17:03:04"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"17:03:07"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"17:03:07"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"17:03:07"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"17:03:07"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"17:03:07"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"17:03:07"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"17:03:07"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"17:03:07"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImageDog.jpg","timestamp":"17:03:07"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"17:03:09"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"17:03:09"}
+{"level":"debug","message":"Gender Final: []","timestamp":"17:03:09"}
+{"level":"info","message":"Face Detection: ./TestImages/TestImagePNG.png","timestamp":"17:03:09"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"17:03:15"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"17:03:15"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"17:03:15"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"17:03:15"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"03:20:23"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"03:20:26"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"03:20:26"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"03:20:26"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"03:20:26"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"03:52:14"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"03:52:15"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"03:52:15"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"03:52:15"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"03:52:15"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"03:52:50"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"03:52:52"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"03:52:52"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"03:52:52"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"03:52:52"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"03:53:27"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"03:53:29"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"03:53:29"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"03:53:29"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"03:53:29"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"03:53:29"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"03:54:35"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"03:54:37"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"03:54:37"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"03:54:37"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"03:54:37"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"03:54:37"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"03:56:01"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"03:56:04"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"03:56:04"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"03:56:04"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"03:56:04"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"03:56:04"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"03:57:08"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"03:57:11"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"03:57:11"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"03:57:11"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"03:57:11"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"03:57:11"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage5.jpg","timestamp":"03:57:52"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"03:57:55"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"03:57:55"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"03:57:55"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"03:57:55"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"03:57:55"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"03:57:55"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"03:57:55"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"03:57:55"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage5.jpg","timestamp":"04:00:07"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"04:00:09"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"04:00:09"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"04:00:09"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"04:00:09"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"04:00:09"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"04:00:09"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"04:00:09"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"04:00:09"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"04:02:03"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:02:05"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:02:05"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:02:05"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"04:10:00"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:10:03"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:10:03"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:10:03"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"04:10:44"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:10:48"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:10:48"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:10:48"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImagePNG.png","timestamp":"04:12:42"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"04:12:46"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"04:12:46"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"04:12:46"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"04:12:46"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage5.jpg","timestamp":"04:16:37"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"04:16:39"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"04:16:39"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"04:16:39"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"04:16:39"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"04:16:39"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"04:16:39"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"04:16:39"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"04:16:39"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImagePNG.png","timestamp":"04:25:09"}
+{"level":"debug","message":"Average Age of face 0 = 32.5. Gender of face = MALE","timestamp":"04:25:13"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"04:25:13"}
+{"level":"debug","message":"Average Face Final: [32.5]","timestamp":"04:25:13"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"04:25:13"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageRock.jpg","timestamp":"04:27:02"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:27:04"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:27:04"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:27:04"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"04:31:33"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:31:35"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:31:35"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:31:35"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage5.jpg","timestamp":"04:32:17"}
+{"level":"debug","message":"Average Age of face 0 = 28. Gender of face = FEMALE","timestamp":"04:32:20"}
+{"level":"debug","message":"Average Age of face 1 = 39. Gender of face = FEMALE","timestamp":"04:32:20"}
+{"level":"debug","message":"Average Age of face 2 = 39.5. Gender of face = FEMALE","timestamp":"04:32:20"}
+{"level":"debug","message":"Average Age of face 3 = 29.5. Gender of face = FEMALE","timestamp":"04:32:20"}
+{"level":"debug","message":"Average Age of face 4 = 31. Gender of face = FEMALE","timestamp":"04:32:20"}
+{"level":"debug","message":"Number of faces: 5","timestamp":"04:32:20"}
+{"level":"debug","message":"Average Face Final: [28,39,39.5,29.5,31]","timestamp":"04:32:20"}
+{"level":"debug","message":"Gender Final: [FEMALE,FEMALE,FEMALE,FEMALE,FEMALE]","timestamp":"04:32:20"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageDog.jpg","timestamp":"04:43:44"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"04:43:46"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"04:43:46"}
+{"level":"debug","message":"Gender Final: []","timestamp":"04:43:46"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"04:44:13"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"04:44:14"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"04:44:14"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"04:44:14"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"04:44:14"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageDog.jpg","timestamp":"05:08:04"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"05:08:06"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"05:08:06"}
+{"level":"debug","message":"Gender Final: []","timestamp":"05:08:06"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:13:22"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:13:24"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:13:24"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:13:24"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:13:24"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:13:24"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:14:10"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:14:13"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:14:13"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:14:13"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:14:13"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:14:13"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:15:36"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:15:39"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:15:39"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:15:39"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:15:39"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:15:39"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:18:04"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:18:07"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:18:07"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:18:07"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:18:07"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:18:07"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:32:29"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:32:31"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:32:31"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:32:31"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:32:31"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:32:31"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"05:35:58"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"05:35:59"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"05:35:59"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"05:35:59"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"05:35:59"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage2.jpg","timestamp":"05:41:28"}
+{"level":"debug","message":"Average Age of face 0 = 34.5. Gender of face = MALE","timestamp":"05:41:31"}
+{"level":"debug","message":"Average Age of face 1 = 31. Gender of face = FEMALE","timestamp":"05:41:31"}
+{"level":"debug","message":"Number of faces: 2","timestamp":"05:41:31"}
+{"level":"debug","message":"Average Face Final: [34.5,31]","timestamp":"05:41:31"}
+{"level":"debug","message":"Gender Final: [MALE,FEMALE]","timestamp":"05:41:31"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"05:41:54"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"05:41:56"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"05:41:56"}
+{"level":"debug","message":"Gender Final: []","timestamp":"05:41:56"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImageGIF.gif","timestamp":"05:45:06"}
+{"level":"debug","message":"Number of faces: 0","timestamp":"05:45:08"}
+{"level":"debug","message":"Average Face Final: []","timestamp":"05:45:08"}
+{"level":"debug","message":"Gender Final: []","timestamp":"05:45:08"}
+{"level":"info","message":"Face Detection: /home/eric/assignment5/files/TestImage.jpeg","timestamp":"05:45:16"}
+{"level":"debug","message":"Average Age of face 0 = 53. Gender of face = MALE","timestamp":"05:45:18"}
+{"level":"debug","message":"Number of faces: 1","timestamp":"05:45:18"}
+{"level":"debug","message":"Average Face Final: [53]","timestamp":"05:45:18"}
+{"level":"debug","message":"Gender Final: [MALE]","timestamp":"05:45:18"}
