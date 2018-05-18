@@ -18,7 +18,42 @@ var text_to_speech = new TextToSpeechV1 ({
   password: 'GLEZyvT34MEb'
 });
 
+//==============================================================================================================================================================
+//Logging Initialization (From Week 10 Lab Notes)
+//==============================================================================================================================================================
+var winston = require('winston');
+
+const env = process.env.NODE_ENV || 'development'; // if the env is not specified, then it is development
+const logDir = 'log'; // to create a log folder
+// Create the log directory if it does not exist
+if (!fs.existsSync(logDir)) { // if the folder is not exist
+    fs.mkdirSync(logDir); // create one
+}
+
+const tsFormat = function () { // get the current time
+    return (new Date()).toLocaleTimeString();
+};
+
+const logger = new (winston.Logger)({
+    transports: [
+        new (winston.transports.Console)({
+            timestamp: tsFormat, // print out the time
+            colorize : true, // colorize the output
+            level : env === 'development' ? 'debug' : 'info' //dynamic level
+        }),
+        new (winston.transports.File)({
+            filename : logDir + "/ Text_to_Speech.log", // file name
+            timestamp: tsFormat, // print out the time
+            level : env === 'development' ? 'debug' : 'info' //dynamic level
+        })
+    ]
+});
+
+//==============================================================================================================================================================
+//Text2Speech function Definition
+//==============================================================================================================================================================
 module.exports = function (Words,callback){
+    logger.info('Entered Text2Speech with string: ' + Words);
     var params = {
     text: Words,
     voice: 'en-GB_KateVoice',
@@ -27,9 +62,9 @@ module.exports = function (Words,callback){
 
     // Pipe the synthesized text to a file.
     var Datafile=text_to_speech.synthesize(params).on('error', function(error) {
-        //logger.error('Error:', error);
+        logger.error('Error:', error);
     }).pipe(fs.createWriteStream('TextToSpeechOutput.wav')).on('finish',function(){
-        //logger.debug('Successfully created .wav file');
+        logger.debug('Successfully created .wav file');
         callback('TextToSpeechOutput.wav');
     });
 }

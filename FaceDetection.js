@@ -23,7 +23,7 @@ var visualRecognition = new VisualRecognitionV3({
 //==============================================================================================================================================================
 //Logging Initialization (From Week 10 Lab Notes)
 //==============================================================================================================================================================
-/*var winston = require('winston');
+var winston = require('winston');
 
 const env = process.env.NODE_ENV || 'development'; // if the env is not specified, then it is development
 const logDir = 'log'; // to create a log folder
@@ -49,14 +49,14 @@ const logger = new (winston.Logger)({
             level : env === 'development' ? 'debug' : 'info' //dynamic level
         })
     ]
-});*/
+});
 
 //==============================================================================================================================================================
 //ProcessImage function Definition
 //==============================================================================================================================================================
 
-module.exports = function (file,callback){
-    //logger.info('Entered Image Recognition function with file: ' + file);
+module.exports = function ProcessImage(file,callback){
+    logger.info('Entered Image Recognition function with file: ' + file);
     var images_file = fs.createReadStream(file)
 
     var params = {
@@ -65,21 +65,23 @@ module.exports = function (file,callback){
 
     var FaceAges=[];
     var FaceGender=[];
+    var FacePosition=[];
 
     visualRecognition.detectFaces(params, function(err, response) {
-    //if (err)
-        //logger.error(err);
-    //else {
+    if (err)
+        logger.error(err);
+    else
         var Data=response.images[0].faces;
+        console.log(Data);
         for (var i=0;i<Data.length;i++){
             FaceAges.push((Data[i].age.min+Data[i].age.max)/2); //Get the average age of each face
             FaceGender.push(Data[i].gender.gender); //Get the gender of each face
-            //logger.debug('Average Age of face ' + i +' = ' + (Data[i].age.min+Data[i].age.max)/2 + '. Gender of face = ' + Data[i].gender.gender);
+            FacePosition.push(Data[i].face_location); //Location of face
+            logger.debug('Average Age of face ' + i +' = ' + (Data[i].age.min+Data[i].age.max)/2 + '. Gender of face = ' + Data[i].gender.gender);
         }
-      //}
-        //logger.debug('Number of faces: ' + Data.length);
-        //logger.debug('Average Face Final: [' + FaceAges + ']');
-        //logger.debug('Gender Final: [' + FaceGender + ']');
-        callback({AverageAge:FaceAges,Gender:FaceGender,NumFaces:Data.length});
+        logger.debug('Number of faces: ' + Data.length);
+        logger.debug('Average Face Final: [' + FaceAges + ']');
+        logger.debug('Gender Final: [' + FaceGender + ']');
+        callback({AverageAge:FaceAges,Gender:FaceGender,NumFaces:Data.length, FacePosition:FacePosition});
     });
 }

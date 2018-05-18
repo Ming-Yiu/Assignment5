@@ -8,14 +8,16 @@ var faceDetection = require("./FaceDetection.js");
 var textToSpeech = require("./TexttoSpeech.js");
 var fs = require("fs");
 var siofu = require("socketio-file-upload");
-var io = require("socket.io")(server); //create socket
 var path = require("path");
-<<<<<<< HEAD
-var play = require("play");
-var player = require("play-sound")(opts = {});
 var ss = require('socket.io-stream');
-=======
-var ss = require('socket.io-stream');
+
+//==============================================================================================================================================================
+//Server Initialization
+//==============================================================================================================================================================
+
+var app = require("express")().use(siofu.router); //initialise express app
+var server = require('http').Server(app); //create server
+var io = require("socket.io")(server); //create socket
 //==============================================================================================================================================================
 //Logging Initialization (From Week 10 Lab Notes)
 //==============================================================================================================================================================
@@ -47,18 +49,10 @@ const logger = new (winston.Logger)({
     ]
 });
 
-//==============================================================================================================================================================
-//Server Initialization
-//==============================================================================================================================================================
-
-var app = require("express")().use(siofu.router); //initialise express app
-var server = require('http').Server(app); //create server
-
 //Create upload folder if it doesn't exist
 if (!fs.existsSync('files')) {
     fs.mkdirSync('files');
 }
->>>>>>> 3b67eaf75190074073e88b5b5f7188fabb256193
 
 //initalise server to listen on port 3000
 server.listen(3000, function(){
@@ -75,35 +69,32 @@ app.get('/', function(req, res){
 //==============================================================================================================================================================
 //listen for connection
 io.listen(server).on('connection', function(socket){
-    
+
     logger.info("Client " + socket.id + " has connected");
 
     var uploader = new siofu();
     uploader.dir = path.join(__dirname, '/files');
     uploader.listen(socket);
-    
+
     uploader.on('start', function(event){
         logger.debug('Upload Started');
     });
-    
+
     uploader.on('error', function(err){
         logger.error(err);
     })
-<<<<<<< HEAD
-  })
-  socket.on("upload", function(file){
-    console.log(file);
-  })
-  socket.on("play", function(){
-    console.log("listen");
-    
-  })
-=======
-    
+
     uploader.on("complete", function(event){
         var filePath = path.join(uploader.dir, event.file.name);
         faceDetection(filePath, function(data){
             logger.debug('Image Processed: \n' + data);
+            logger.info('Sending input and output image');
+            var imageStream = ss.createStream();
+            fs.createReadStream(filePath).pipe(imageStream); //stream image
+            ss(socket).emit('image', imageStream);
+            socket.on("faceposition", function(){
+                socket.emit("faceposition", data.FacePosition);
+            });
             var words = "";
             if (data.NumFaces>0){
                 words = "The image has " + data.NumFaces + " faces. "; //combine text to get one long sentence
@@ -115,7 +106,7 @@ io.listen(server).on('connection', function(socket){
                 words = "There are no faces in this image.";
             }
             logger.debug(words);
-            
+
             socket.emit('Info',words);
             //Text to speech
             textToSpeech(words, function(datafile){
@@ -127,7 +118,7 @@ io.listen(server).on('connection', function(socket){
                 ss(socket).emit('audiostream',myStream);
                 logger.info('Streaming audio');
             });
+
         });
     });
->>>>>>> 3b67eaf75190074073e88b5b5f7188fabb256193
 });

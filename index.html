@@ -1,73 +1,49 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<<<<<<< HEAD
-  <head>
-    <meta charset="utf-8">
-    <title>Iteration 1</title>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/siofu/client.js"></script>
-    <script src="/js/socket.io-stream.js"></script>
-    <!--<script src="/siofc/socket.io-file-client.js"></script>-->
-  </head>
-  <body>
-      <p>Upload an image</p><br>
-      <!--<form id="form" method="post" action="/fileupload" enctype="multipart/form-data">
-        <input type="file" name="filetoupload" />
-        <input type="submit" value="Upload" />
-      </form>-->
-      <label>Upload File: <input type="file" id="siofu_input" /></label>
-      <button id="my_button">Upload File</button>
-      <br>
-      <p id="uploadProgress"></p>
-      <p id="listen"></p>
-      <!--<p><button id="upload_btn">Prompt for File</button></p>
-      <p><label>Choose File: <input type="file" id="upload_input"/></label></p>
-      <div id="file_drop" dropzone="copy" title="drop files for upload">Drop File</div>-->
-      <!--<input type="file" id="fileUpload"/>
-      <button type="button" id="button" value="Submit"/>-->
-      <script>
-        var socket = io.connect('http://localhost:3000'); //connect to server socket
-        var progress = document.getElementById("uploadProgress");
-        var listen = document.getElementById("listen");
-        var listenbtn = "";
-        //var uploader = new SocketIOFileUpload(socket);
-        //console.log(uploader);
-        //var uploader = new SocketIOFileUpload(socket);
-        /*var form = document.getElementById('form');
-=======
     <head>
         <meta charset="utf-8">
-        <title>Iteration 1</title>
+        <title>Face recognition</title>
         <script src="/socket.io/socket.io.js"></script>
         <script src="/siofu/client.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.js"></script>
+        <link rel="stylesheet" type="text/css" href="indexStyle.css">
     </head>
     <body>
-        <p>Upload an image</p><br>
+        <p id="intro"><strong>Face Recognition</strong></p>
         <label>Upload File: <input type="file" id="siofu_input" /></label>
-        <br>
         <button id="my_button">Upload File</button>
         <br>
         <p id="uploadProgress"></p>
+        <br>
+        <p>Image input</p>
+        <p id="input"><!--<img src="" alt="Input image" >--></p>
+        <br>
+        <p>Image output</p>
+        <p><canvas id="canvas" width="0" height="0"></canvas></p>
+        <br>
         <p>Image Properties:</p>
         <p id="datainfo"></p>
-        <p id="listen">Audio:</p>
+        <p id="listen">Audio: </p>
         <audio id="player" controls><source src="" type="audio/wav"></audio>
         <p id="repeat"></p>
-      
+
         <script>
-            var socket = io.connect(); //connect to server socket
+            var socket = io.connect('http://localhost:3000'); //connect to server socket
             var progress = document.getElementById("uploadProgress");
             var listen = document.getElementById("listen");
             var uploader = new SocketIOFileUpload(socket);
-          
+            var inputImage = document.getElementById("input");
+            var outputImage = document.getElementById("output");
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+
             uploader.listenOnSubmit(document.getElementById("my_button"), document.getElementById("siofu_input"));
->>>>>>> 3b67eaf75190074073e88b5b5f7188fabb256193
 
             uploader.addEventListener("start", function(event){
                 console.log('Started upload');
                 listen.innerHTML='';
                 document.getElementById("datainfo").innerHTML='';
+                console.log(document.getElementById("siofu_input"));
+                console.log(event);
             });
 
             uploader.addEventListener("progress", function(event){
@@ -78,76 +54,52 @@
             uploader.addEventListener("complete", function(event){
                 progress.innerHTML = "File successfully uploaded";
                 console.log('Finished upload');
+                console.log(event);
+                //inputImage.src =
             });
 
-<<<<<<< HEAD
-          // Configure the three ways that SocketIOFileUpload can read files:
-          document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
-          siofu.listenOnInput(document.getElementById("upload_input"));
-          siofu.listenOnDrop(document.getElementById("file_drop"));
-
-          // Do something on upload progress:
-          siofu.addEventListener("progress", function(event){
-              var percent = event.bytesLoaded / event.file.size * 100;
-              console.log("File is", percent.toFixed(2), "percent loaded");
-          });
-
-          // Do something when a file is uploaded:
-          siofu.addEventListener("complete", function(event){
-              console.log(event.success);
-              console.log(event.file);
-          });
-
-        }, false);*/
-        /*var submit = document.getElementById("button");
-        var file = document.getElementById("filetoupload");
-        var form = document.getElementById("form");
-
-        form.addEventListener("submit", function(){
-          console.log(file);
-        })*/
-
-        /*submit.addEventListener("onClick", function(){
-          socket.emit('upload', file);
-        });*/
-        var uploader = new SocketIOFileUpload(socket);
-        uploader.listenOnSubmit(document.getElementById("my_button"), document.getElementById("siofu_input"));
-
-        uploader.addEventListener("start", function(event){
-          console.log(event);
-        })
-
-        uploader.addEventListener("progress", function(event){
-            var percent = event.bytesLoaded / event.file.size * 100;
-            progress.innerHTML = "File is " + percent.toFixed(2) + " percent loaded";
-        });
-
-        uploader.addEventListener("complete", function(event){
-          progress.innerHTML = "File successfully uploaded";
-        });
-
-        socket.on("Finish processing", function(){
-          listen.innerHTML=  "<button id='listen_btn'>Listen</button>";
-          listenbtn = document.getElementById("listen_btn");
-        })
-
-        listenbtn.addEventListener("click", function(){
-          ss(socket).emit('play', stream);
-          console.log(stream);
-        })
-      </script>
-  </body>
-=======
             socket.on("Finish processing", function(data){
                 console.log('Sound file finished processing');
-                listen.innerHTML=  'Audio ready...';
-            });  
-            
+                listen.innerHTML +=  'Audio ready...';
+            });
+
             socket.on('Info',function(data){
                 console.log('Image Properties' + data);
                 document.getElementById('datainfo').innerHTML = data;
+            });
+
+            ss(socket).on('image', function(stream, data){
+              parts = [];
+              stream.on('data', function(chunk){
+                parts.push(chunk);
+              });
+
+              stream.on('end', function(){
+                //Display input and output image
+                console.log('Received image');
+                var src = (window.URL||window.webkitURL).createObjectURL(new Blob(parts));
+                inputImage.innerHTML = "<img src='" + src + "' alt='Input image'>"
+                //inputImage.src = (window.URL||window.webkitURL).createObjectURL(new Blob(parts));
+                canvas.width = inputImage.width;
+                canvas.height = inputImage.height;
+                ctx.drawImage(inputImage, 0, 0);
+                socket.emit("faceposition");
+              })
+            });
+
+            socket.on("faceposition", function(data){
+              //Draw box around faces
+              console.log(data);
+              for (var i = 0; i < data.length; i++)
+              {
+                console.log("draw rectangle");
+                ctx.lineWidth="3";
+                ctx.strokeStyle="white";
+                ctx.setLineDash([10, 5]);
+                ctx.beginPath();
+                ctx.strokeRect(data[i].left, data[i].top, data[i].width, data[i].height);
+              }
             })
-            
             ss(socket).on('audiostream', function(stream, data) {
                 //Using https://github.com/zoutepopcorn/audio_socket/tree/master example
                 var audio = document.getElementById('player');
@@ -155,7 +107,7 @@
                 stream.on('data', function(chunk){
                     parts.push(chunk);
                 });
-                
+
                 stream.on('end', function () {
                     console.log('Completed stream. Playing...');
                     audio.src = (window.URL || window.webkitURL).createObjectURL(new Blob(parts)); //Create mp3 file from buffer
@@ -163,8 +115,7 @@
                     document.getElementById("repeat").innerHTML='Get new results by uploading another file.';
                 });
             });
-            
+
         </script>
     </body>
->>>>>>> 3b67eaf75190074073e88b5b5f7188fabb256193
 </html>
