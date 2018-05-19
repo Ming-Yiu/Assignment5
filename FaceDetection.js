@@ -4,7 +4,7 @@
 //Preconditions: Must be connected to the internet
 //Limitations: file only accepts image files
 //
-//Since .detectFaces is assyncronous, A callback needs to be used like below: 
+//Since .detectFaces is assyncronous, A callback needs to be used like below:
 //  ProcessImage('./TestImage2.jpg',function(Data){console.log(Data)}); where Data is the data object
 //If no need to use the callback, use empty function otherwise returns an error:
 //  ProcessImage('./TestImage2.jpg',function(){});
@@ -65,21 +65,23 @@ module.exports = function ProcessImage(file,callback){
 
     var FaceAges=[];
     var FaceGender=[];
-    
+    var FacePosition=[];
+
     visualRecognition.detectFaces(params, function(err, response) {
     if (err)
         logger.error(err);
     else
         var Data=response.images[0].faces;
+        console.log(Data);
         for (var i=0;i<Data.length;i++){
             FaceAges.push((Data[i].age.min+Data[i].age.max)/2); //Get the average age of each face
             FaceGender.push(Data[i].gender.gender); //Get the gender of each face
+            FacePosition.push(Data[i].face_location); //Location of face
             logger.debug('Average Age of face ' + i +' = ' + (Data[i].age.min+Data[i].age.max)/2 + '. Gender of face = ' + Data[i].gender.gender);
         }
         logger.debug('Number of faces: ' + Data.length);
         logger.debug('Average Face Final: [' + FaceAges + ']');
         logger.debug('Gender Final: [' + FaceGender + ']');
-        callback({AverageAge:FaceAges,Gender:FaceGender,NumFaces:Data.length});
+        callback({AverageAge:FaceAges,Gender:FaceGender,NumFaces:Data.length, FacePosition:FacePosition});
     });
 }
-

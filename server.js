@@ -1,119 +1,122 @@
+//==============================================================================================================================================================
+//Nodejs Server code
+//Usage: Run by calling 'node server.js' in console
+//Prerequisites: Need to be connected to the internet. Need to have correct modules installed (under require below). Need to have correct admin privlidges and firewall access.
+//==============================================================================================================================================================
+//Dependencies
 var faceDetection = require("./FaceDetection.js");
 var textToSpeech = require("./TexttoSpeech.js");
 var fs = require("fs");
-var SocketIOFile = require('socket.io-file');
 var siofu = require("socketio-file-upload");
+var path = require("path");
+var ss = require('socket.io-stream');
+
+//==============================================================================================================================================================
+//Server Initialization
+//==============================================================================================================================================================
+
 var app = require("express")().use(siofu.router); //initialise express app
 var server = require('http').Server(app); //create server
 var io = require("socket.io")(server); //create socket
-var formidable = require("formidable");
-var path = require("path");
-var play = require("play");
-var player = require("play-sound")(opts = {});
+//==============================================================================================================================================================
+//Logging Initialization (From Week 10 Lab Notes)
+//==============================================================================================================================================================
+var winston = require('winston');
+
+const env = process.env.NODE_ENV || 'development'; // if the env is not specified, then it is development
+const logDir = 'log'; // to create a log folder
+// Create the log directory if it does not exist
+if (!fs.existsSync(logDir)) { // if the folder is not exist
+    fs.mkdirSync(logDir); // create one
+}
+
+const tsFormat = function () { // get the current time
+    return (new Date()).toLocaleTimeString();
+};
+
+const logger = new (winston.Logger)({
+    transports: [
+        new (winston.transports.Console)({
+            timestamp: tsFormat, // print out the time
+            colorize : true, // colorize the output
+            level :  'info'
+        }),
+        new (winston.transports.File)({
+            filename : logDir + "/ Server.log", // file name
+            timestamp: tsFormat, // print out the time
+            level : env === 'development' ? 'debug' : 'info' //dynamic level
+        })
+    ]
+});
+
+//Create upload folder if it doesn't exist
+if (!fs.existsSync('files')) {
+    fs.mkdirSync('files');
+}
 
 //initalise server to listen on port 3000
 server.listen(3000, function(){
-  console.log("Server listening on port 3000");
+    logger.info('Listening on Port 3000')
 });
 
 //send index.html
 app.get('/', function(req, res){
-  res.sendFile(__dirname + "/index.html");
-  console.log("Accessing index page");
+    res.sendFile(__dirname + "/index.html");
 });
 
-//Upload file
-/*app.post('/fileupload', function(req, res){
-  console.log("Uploading file");
-  var form = new formidable.IncomingForm();
-  form.parse(req, function(err, fields, files){
-    console.log(files.filetoupload.path);
-    var oldPath = files.filetoupload.path;
-    var newPath = __dirname + '/files/' + files.filetoupload.name;
-    fs.rename(oldPath, newPath, function(err){
-      if (err) throw err;
-      console.log("Upload complete");
-
-      })
-      
-      /*var music = __dirname + "/TextToSpeechOutput.mp3";
-      console.log(music)
-      var onclick="var audio = new Audio(" + music + ");audio.play();"
-      res.send('File upload complete<br><audio id="file"><source src="'+music+'"></audio><button onclick="document.getElementById("file").play()">play</button>');
-      */ //doesnt work yet
-      })  
-    })
-  })
-})*/
 
 //listen for connection
-io.on('connection', function(socket){
-  console.log("Client " + socket.id + " has connected");
-  /*var uploader = new SocketIOFile(socket, {
-    uploadDir: __dirname + '/files',
-    transmissionDelay: 0,
-    overwrite: true
-  });
-  console.log(uploader);
-  uploader.on('start', (fileInfo) => {
-    console.log("Client started uploading file");
-    console.log(fileInfo);
-  })
-  uploader.on('stream', (fileInfo) => {
-    var percent = fileInfo.wrote/fileInfo.size * 100;
-    console.log(percent + "% completed");
-    console.log(fileInfo);
-  })
-  uploader.on('complete', (fileInfo) => {
-    console.log("Transmission complete");
-    console.log(event);
-  })
-  uploader.on('error', (err) => {
-    console.log("Error in upload");
-    console.log(err);
-  })*/
-  var uploader = new siofu();
-  uploader.dir = path.join(__dirname, '/files');
-  console.log(uploader);
-  uploader.listen(socket);
-  uploader.on('start', function(event){
-    console.log(event);
-  });
-  uploader.on('error', function(err){
-    console.log(err);
-  })
-  uploader.on("complete", function(event){
-    console.log(event);
-    var filePath = path.join(uploader.dir, event.file.name);
-    faceDetection(filePath, function(data){
-      console.log(data);
-      var words = "";
-      if (data.NumFaces>0)
-      {
-        //combine text
-        words = "The image has " + data.NumFaces + " faces. ";
-        for (var i = 1; i <= data.NumFaces; i++)
-        {
-          words = words + "Face number " + i + " is a " + data.Gender[i-1] + " and the average age is " + data.AverageAge[i-1] + ". ";
-        }
-        console.log(words);
-      }
-      else {
-        words = "There are no faces in this image";
-      }
-      //Text to speech
-      textToSpeech(words, function(datafile){
-        console.log(datafile);
-        socket.emit("Finish processing");
-      })
+io.listen(server).on('connection', function(socket){
+
+    logger.info("Client " + socket.id + " has connected");
+
+    var uploader = new siofu();
+    uploader.dir = path.join(__dirname, '/files');
+    uploader.listen(socket);
+
+    uploader.on('start', function(event){
+        logger.debug('Upload Started');
+    });
+
+    uploader.on('error', function(err){
+        logger.error(err);
     })
-  })
-  socket.on("upload", function(file){
-    console.log(file);
-  })
-  socket.on("play", function(){
-    console.log("listen");
-    console.log(player);
-    player.play("./TextToSpeechOutput.wav");
-  })
+
+    uploader.on("complete", function(event){
+        var filePath = path.join(uploader.dir, event.file.name);
+        faceDetection(filePath, function(data){
+            logger.debug('Image Processed: \n' + data);
+            logger.info('Sending input and output image');
+            var imageStream = ss.createStream();
+            fs.createReadStream(filePath).pipe(imageStream); //stream image
+            ss(socket).emit('image', imageStream);
+            socket.on("faceposition", function(){
+                socket.emit("faceposition", data.FacePosition);
+            });
+            var words = "";
+            if (data.NumFaces>0){
+                words = "The image has " + data.NumFaces + " faces. "; //combine text to get one long sentence
+                for (var i = 1; i <= data.NumFaces; i++){
+                    words = words + "Face number " + i + " is a " + data.Gender[i-1] + " and the average age is " + data.AverageAge[i-1] + ". ";
+                }
+            }
+            else {
+                words = "There are no faces in this image.";
+            }
+            logger.debug(words);
+
+            socket.emit('Info',words);
+            //Text to speech
+            textToSpeech(words, function(datafile){
+                logger.info('Finished audio synthesis');
+                //Using https://github.com/zoutepopcorn/audio_socket/tree/master example
+                var myStream = ss.createStream();
+                fs.createReadStream('./TextToSpeechOutput.wav').pipe(myStream); //Stream .wav file
+                socket.emit("Finish processing");
+                ss(socket).emit('audiostream',myStream);
+                logger.info('Streaming audio');
+            });
+
+        });
+    });
 });

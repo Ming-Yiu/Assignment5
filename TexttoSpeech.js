@@ -3,7 +3,7 @@
 //Returns: Creates a .wav file in the root filesystem.
 //Preconditions: Must be connected to the internet. Need to have file write access in directory. Must have adequete space for output file.
 //
-//Since synthesising voices is assyncronous, A callback needs to be used like below: 
+//Since synthesising voices is assyncronous, A callback needs to be used like below:
 //  Text2Speech('hello',function(){ *DO SOMETHING WITH THE VOICE FILE*});
 //
 //==============================================================================================================================================================
@@ -18,9 +18,6 @@ var text_to_speech = new TextToSpeechV1 ({
   password: 'GLEZyvT34MEb'
 });
 
-<<<<<<< HEAD
-module.exports = function (Words,callback){
-=======
 //==============================================================================================================================================================
 //Logging Initialization (From Week 10 Lab Notes)
 //==============================================================================================================================================================
@@ -55,9 +52,8 @@ const logger = new (winston.Logger)({
 //==============================================================================================================================================================
 //Text2Speech function Definition
 //==============================================================================================================================================================
-module.exports = function Text2Speech(Words,callback){
+module.exports = function (Words,callback){
     logger.info('Entered Text2Speech with string: ' + Words);
->>>>>>> e37e30a1f13103674edb27970b3ca168af0c9f53
     var params = {
     text: Words,
     voice: 'en-GB_KateVoice',
